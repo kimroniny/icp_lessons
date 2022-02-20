@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "dfx": "0.8.4",
+  "canisters": {
+    "homework01": {
+      "type": "motoko",
+      "main": "src/homework01/main.mo"
+    },
+    "homework01_assets": {
+      "type": "assets",
+      "source": [
+        "src/homework01_assets/assets"
+      ],
+      "dependencies": [
+        "homework01"
+      ]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}
