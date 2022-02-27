@@ -1,8 +1,14 @@
 {
+  "counter": {
+    "ic": "omzzd-6qaaa-aaaal-qajpa-cai"
+  },
+  "counter_http": {
+    "ic": "lxdfs-yaaaa-aaaal-qajqa-cai"
+  },
   "mysite": {
-    "ic": "a5f2z-tiaaa-aaaal-qad5a-cai"
+    "ic": "oc3ul-faaaa-aaaal-qajoa-cai"
   },
   "mysite_assets": {
-    "ic": "a2e4n-6qaaa-aaaal-qad5q-cai"
+    "ic": "of2s7-iyaaa-aaaal-qajoq-cai"
   }
 }

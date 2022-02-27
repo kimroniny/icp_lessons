@@ -2,18 +2,13 @@
   "version": 1,
   "dfx": "0.8.4",
   "canisters": {
-    "mysite": {
+    "counter": {
       "type": "motoko",
-      "main": "src/mysite/main.mo"
+      "main": "src/counter/counter.mo"
     },
-    "mysite_assets": {
-      "type": "assets",
-      "source": [
-        "src/mysite_assets/assets"
-      ],
-      "dependencies": [
-        "mysite"
-      ]
+    "counter_http": {
+      "type": "motoko",
+      "main": "src/counter_http/counter_http.mo"
     }
   },
   "defaults": {
