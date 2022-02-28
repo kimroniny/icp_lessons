@@ -28,7 +28,7 @@ actor {
         };
     };
 
-    public func quicksort(arr: [Int]): async [Int] {
+    public func qsort(arr: [Int]): async [Int] {
         var arr2: [var Int] = Array.init<Int>(arr.size(), 0);
         for (j in Iter.range(0, arr.size()-1)) {
             arr2[j] := arr[j];
