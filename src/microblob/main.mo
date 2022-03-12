@@ -12,11 +12,11 @@ actor {
     stable var messages: List.List<Message> = List.nil();
 
     public type Microblog = actor {
-        follow: shared (Principal) -> async(); //添加关注对象
-        follows: shared query () -> async [Principal]; //返回关注列表
-        post: shared (Text) -> async (); //发布消息
-        posts: shared query (since: Time.Time) -> async [Message]; //获取发布的消息
-        timeline: shared (since: Time.Time) -> async [Message]; //获取所有关注的人发布的消息
+        follow: shared (Principal) -> async();
+        follows: shared query () -> async [Principal];
+        post: shared (Text) -> async ();
+        posts: shared query (since: Time.Time) -> async [Message];
+        timeline: shared (since: Time.Time) -> async [Message];
     };
 
     
