@@ -2,18 +2,9 @@
   "version": 1,
   "dfx": "0.8.4",
   "canisters": {
-    "mysite": {
+    "microblob": {
       "type": "motoko",
-      "main": "src/mysite/main.mo"
-    },
-    "mysite_assets": {
-      "type": "assets",
-      "source": [
-        "src/mysite_assets/assets"
-      ],
-      "dependencies": [
-        "mysite"
-      ]
+      "main": "src/microblob/main.mo"
     }
   },
   "defaults": {
